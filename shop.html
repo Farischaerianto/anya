@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shop</title>
+ <meta name="author" content="Faris">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+ .button {
+  background-color: #D55AFF;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+.button {border-radius: 8px;}
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  </style>
+  <script>
+        function confirmActionPrem() {
+        let confirmActionPrem = confirm("Apakah Kamu Ingin membeli Premium User dengan haraga Rp2000/bulan?");
+        if (confirmActionPrem) {
+          window.location = "https://api.whatsapp.com/send?phone=6281717277124&text=Saya%20Ingin%20Membeli%20Premium%20User%201bulan%20%20";
+        } else {
+          alert("dibatalkan");
+        }
+      }
+    </script>
+  <script>
+        function confirmActionJoinGc() {
+        let confirmActionPrem = confirm("Apakah Kamu Ingin membeli Join Group wa dengan harga Rp1000?");
+        if (confirmActionJoinGc) {
+          window.location = "https://api.whatsapp.com/send?phone=6281717277124&text=Saya%20mau%20beli%20join%20group%20wa%201%20bulan";
+        } else {
+          alert("dibatalkan");
+        }
+      }
+    </script>
+</head>
+<body bgcolor="FF5252">
+<img src="https://farischaerianto.github.io/anya/keranjang.png" alt="Cart" width="45%" height="45%"></center>
+<font face="comic" color="4BFFC8" size="4"><b><h1>Toko Bot Anya</h1></b></font>
+<font face="comic" color="yellow" size="3"><h2>Berikut item yang kami jual:</h2></font>
+<font face="comic" color="white" size="3"><b><p>Premium user 1 bulan Rp2000</p></b></font>
+<font face="comic" color="white" size="2"><p>Fitur: limit unlimited, Dan berbagai Fitur premium lainnya cek aja di botnya, Harga Rp2000<p></font>
+<button class="button" style="vertical-align:middle" onclick="confirmActionPrem()">Beli Premium user</button>
+<font face="comic" color="white" size="3"><b><p>Join Group Wa 1 Bulan Rp1000</p></b></font>
+<font face="comic" color="white" size="2"><p>Fitur: welcome dan beberapa fitur group yang seru, Harga Rp1000<p></font>
+<button class="button" style="vertical-align:middle" onclick="confirmActionJoinGc()">Beli Join Group Wa</button>
+
+
+
+
+</body>
+</html>
