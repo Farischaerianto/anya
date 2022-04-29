@@ -72,7 +72,7 @@ ul.topnav li.icon {display: none;}
 </head>
 <body bgcolor="pink">
 <ul class="topnav" id="myTopnav">
-  <li><a href="#">Home</a></li>
+  <li><a href="#home">Home</a></li>
   <li><a href="#donasi">Donasi</a></li>
   <li><a href="#shop">Shop</a></li>
   <li><a href="https://api.whatsapp.com/send?phone=79168568108&text=.menu">Nomor Bot</a></li>
