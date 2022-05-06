@@ -90,7 +90,7 @@ ul.topnav li.icon {display: none;}
 </audio>
 <a href="https://api.whatsapp.com/send?phone=6288220412777&text=.menu"><button class="button" style="vertical-align:middle"><span>Nomor Bot</span></button></a>
 <a href="./donasi.html"><button class="button" style="vertical-align:middle"><span>Donasi</span></button></a>
-<a href="./shopi.html"><button class="button" style="vertical-align:middle"><span>Shop Bot</span></button></a>
+<a href="./shop.html"><button class="button" style="vertical-align:middle"><span>Shop Bot</span></button></a>
 
 <script>
 function myFunction() {
@@ -102,6 +102,11 @@ function myFunction() {
     }
 }
 </script>
+
+<script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=913683&format=300x50&ga=g&mbtodb=1"></script>
+<noscript><a href="https://yllix.com/publishers/913683" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub_0ei6v1.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
+
+<script type="text/javascript" src="https://udbaa.com/slider.php?section=General&pub=913683&ga=g&side=random"></script>
 
 </body>
 </html>
